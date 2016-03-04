@@ -13,7 +13,7 @@
     
     // attempt to establish a connection to the server
     try {
-        var server = io.connect('http://127.0.0.1:8080');
+        var server = io.connect('http://tempchat.herokuapp.com');
     }
     catch(e) {
         alert('Sorry, we couldn\'t connect. Please try again later \n\n' + e);
